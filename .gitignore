@@ -4,6 +4,7 @@
 
 .gitignore
 *.iml
+*.psd
 
 ## Directory-based project format:
 .idea/

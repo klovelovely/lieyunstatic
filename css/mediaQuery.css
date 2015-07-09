@@ -1,11 +1,8 @@
-/* col-xs 专用 */
-@media (max-width: 767px) {}
+/* desktop - sm, md, lg  */
+@media (min-width: 768px) {}
 
-/* col-sm 专用 */
-@media (max-width: 991px) and (min-width: 768px) {}
-
-/* col-xs, sm专用 */
-@media (max-width: 991px){
+/* mobile - xs  */
+@media (max-width: 767px) {
 
     .container {
         padding: 0;
@@ -13,53 +10,25 @@
 
 }
 
-/* col-md, lg 共用 */
-@media (min-width: 992px) {
+@media (max-width: 991px) and (min-width: 768px) {/* sm */
 
-    .navbar {
-        opacity: .95;
-        min-height: .85rem;
+    .container {
+        width: 767px;
     }
 
-    .navbar-nav {
-        margin-left: .17rem;
-    }
-
-    .navbar-nav > li > a {
-        padding: 0 .26rem;
-        height: .84rem;
-        line-height: .84rem;
-    }
-
-    .navbar-right > li > a {
-        margin: .25rem 0 .25rem .05rem;
-        padding: 0 .15rem;
-        height: .34rem;
-        line-height: .34rem;
-    }
-
-    .navbar-default .navbar-nav > li > a {
-        color: #4796da;
-        background-color: #fff;
-    }
-
-    .navbar-default .navbar-nav > li > a:hover,
-    .navbar-default .navbar-nav > li > a:focus {
-        color: #54b2ff;
-        background-color: #f0f0f0;
-    }
-
-    .navbar-default .navbar-nav > .active > a,
-    .navbar-default .navbar-nav > .active > a:hover,
-    .navbar-default .navbar-nav > .active > a:focus {
-        color: #fff;
-        background-color: #3599f1;
+    .navbar-desktop .navbar-nav > li > a {
+        padding: 0 .1rem;
     }
 
 }
 
-/* col-md 专用 */
-@media (max-width: 1199px) and (min-width: 992px) {}
+@media (max-width: 1199px) and (min-width: 992px) {/* md */
 
-/* col-lg 专用 */
-@media (min-width: 1200px) {}
+    .navbar-desktop .navbar-nav > li > a {
+        padding: 0 .20rem;
+    }
+
+}
+
+@media (min-width: 1200px) {/* lg */
+}
