@@ -17,6 +17,7 @@
 
     <!-- Customized for lieyunwang -->
     <link rel="stylesheet" href="css/custom.css"/>
+    <link rel="stylesheet" href="css/mediaQuery.css"/>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -35,6 +36,7 @@
         <div class="navbar-header col-md-2 col-lg-2">
             <a class="navbar-brand" href="index.html">
                 <img src="images/logo.png" width="142" height="40" border="0">
+
                 <h1 class="sr-only">猎云网 | 自媒体聚焦TMT领域创业、创新、原创、独家报道</h1>
             </a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -125,7 +127,7 @@
 <div class="container">
 
     <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+        <div class="main col-xs-12 col-sm-12 col-md-8 col-lg-8">
 
             <!-- 轮播图 start -->
             <div id="carousel-home-focus" class="box carousel slide" data-ride="carousel" data-pause="hover">
@@ -135,8 +137,7 @@
                     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                 </ol>
-
-                <!-- 首页轮播图 -->
+                <!-- 图片 -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <a href="javascript:"><img src="images/focus1.png" alt="轮播图1"></a>
@@ -154,30 +155,86 @@
                         <div class="carousel-caption"></div>
                     </div>
                 </div>
-
-                <!-- 上一个 下一个 -->
-                <!--<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">上一张</span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">下一张</span>
-                </a>-->
             </div>
             <!-- 轮播图 end -->
 
-            <div class="box">
+            <!-- 云言 start -->
+            <div class="box cloudWhisperBox">
 
-
+                <div class="hd">
+                    <div class="title">云言</div>
+                </div>
+                <div class="bd">
+                    <div class="paragraph">我们一直认为眼镜不是明智之举，人们不会真的愿意戴这种东西。这种设备的侵入性太强。相反，我们始终认为应当把科技放在后台。</div>
+                    <div class="author">——苹果CEO蒂姆·库克</div>
+                </div>
 
             </div>
+            <!-- 云言 end -->
+
+            <!-- 推荐文章列表 start -->
+            <div class="box promoteArticleBox">
+
+                <ul class="list">
+
+                    <li class="item">
+                        <figure>
+                            <img class="thumb" width="200" height="140" src="images/new-post-main1.png" alt=""/>
+                            <div class="categoryName">创业创新</div>
+                        </figure>
+                        <div class="introBox">
+                            <div class="headline">匿名社交应用鼻祖Secret宣布关门，曾获3500万美金融资</div>
+                            <div class="summary">贝陶表示：“在经过深思熟虑并与公司董事会进行过磋商以后，我已决定关闭Secret这是我一生中作出过的最让我感到最为难过的一项决定。</div>
+                            <a class="more" href="javascript:">[阅读全文]</a>
+
+                            <div class="metadata">
+                                <div class="date"><i class="glyphicon glyphicon-calendar"></i><span class="text">2015/05/21</span>
+                                </div>
+                                <div class="author"><i class="glyphicon glyphicon-user"></i><span class="a"
+                                                                                                  href="javascript:">猎云网</span>
+                                </div>
+                                <div class="comments"><i class="glyphicon glyphicon-comment"></i><span class="text">182评论</span>
+                                </div>
+                                <div class="views"><i class="glyphicon glyphicon-eye-open"></i><span class="text">12864浏览</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="item">
+                        <figure>
+                            <img class="thumb" width="200" height="140" src="images/new-post-main2.png" alt=""/>
+                            <div class="categoryName">创业创新</div>
+                        </figure>
+                        <div class="introBox">
+                            <div class="headline">匿名社交应用鼻祖Secret宣布关门，曾获3500万美金融资</div>
+                            <div class="summary">贝陶表示：“在经过深思熟虑并与公司董事会进行过磋商以后，我已决定关闭Secret这是我一生中作出过的最让我感到最为难过的一项决定。</div>
+                            <a class="more" href="javascript:">[阅读全文]</a>
+
+                            <div class="metadata">
+                                <div class="date"><i class="glyphicon glyphicon-calendar"></i><span class="text">2015/05/21</span>
+                                </div>
+                                <div class="author"><i class="glyphicon glyphicon-user"></i><span class="a"
+                                                                                                  href="javascript:">猎云网</span>
+                                </div>
+                                <div class="comments"><i class="glyphicon glyphicon-comment"></i><span class="text">182评论</span>
+                                </div>
+                                <div class="views"><i class="glyphicon glyphicon-eye-open"></i><span class="text">12864浏览</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+            <!-- 推荐文章列表 end -->
 
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="side col-xs-12 col-sm-12 col-md-4 col-lg-4">
 
             <!-- 搜索 -->
-            <section class="box">
+            <section class="box hidden-xs visible-sm visible-md visible-lg">
                 <input type="search" class="form-control index-search" placeholder="请输入关键词回车搜索...">
             </section>
 
