@@ -127,10 +127,12 @@
 <div class="container">
 
     <div class="row">
+
+        <!-- main start -->
         <div class="main col-xs-12 col-sm-12 col-md-8 col-lg-8">
 
             <!-- 轮播图 start -->
-            <div id="carousel-home-focus" class="box carousel slide" data-ride="carousel" data-pause="hover">
+            <section id="carousel-home-focus" class="box carousel slide" data-ride="carousel" data-pause="hover">
                 <!-- 控制器 -->
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -155,11 +157,11 @@
                         <div class="carousel-caption"></div>
                     </div>
                 </div>
-            </div>
+            </section>
             <!-- 轮播图 end -->
 
             <!-- 云言 start -->
-            <div class="box cloudWhisperBox">
+            <section class="box cloudWhisperBox">
 
                 <div class="hd">
                     <div class="title">云言</div>
@@ -169,12 +171,13 @@
                     <div class="author">——苹果CEO蒂姆·库克</div>
                 </div>
 
-            </div>
+            </section>
             <!-- 云言 end -->
 
-            <!-- 推荐文章列表 start -->
-            <div class="box promoteArticleBox">
+            <!-- 推荐文章 start -->
+            <section class="box promoteArticleBox">
 
+                <!-- 文章列表 -->
                 <ul class="list">
 
                     <li class="item clearfix">
@@ -439,18 +442,342 @@
 
                 </ul>
 
-            </div>
+                <!-- 分页控件 -->
+                <nav class="text-right">
+                    <ul class="pagination pagination-lg">
+                        <li>
+                            <a href="#" aria-label="Previous"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a>
+                        </li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li class="active"><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">491</a></li>
+                        <li>
+                            <a href="#" aria-label="Next"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </section>
             <!-- 推荐文章列表 end -->
 
         </div>
+        <!-- main end -->
+
+        <!-- side start -->
         <div class="side col-xs-12 col-sm-12 col-md-4 col-lg-4">
 
             <!-- 搜索 -->
             <section class="box hidden-xs visible-sm visible-md visible-lg">
-                <input type="search" class="form-control index-search" placeholder="请输入关键词回车搜索...">
+                <input type="search" class="form-control index-search" placeholder="输入关键词回车搜索...">
             </section>
 
+            <!-- 最新文章 start
+            <section class="box ">
+
+                <div class="hd">
+                    <div class="title">最新文章</div>
+                </div>
+                <div class="bd">
+                    <ul class="list">
+
+                        <li class="item clearfix">
+                            <figure>
+                                <a href="javascript:"><img class="thumb" width="200" height="140" src="images/new-post-main1.png" alt=""/></a>
+                            </figure>
+                            <div class="introBox">
+                                <div class="headline"><a href="javascript:">匿名社交应用鼻祖Secret宣布关门，曾获3500万美金融资</a></div>
+                                <div class="summary">贝陶表示：“在经过深思熟虑并与公司董事会进行过磋商以后，我已决定关闭Secret这是我一生中作出过的最让我感到最为难过的一项决定。<a class="more" href="javascript:">[阅读全文]</a></div>
+                                <div class="metadata clearfix">
+                                    <div class="date">
+                                        <i class="glyphicon glyphicon-calendar"></i><span class="text">2015/07/10</span>
+                                    </div>
+                                    <div class="author">
+                                        <i class="glyphicon glyphicon-user"></i><a href="javascript:">猎云网</a>
+                                    </div>
+                                    <div class="comments">
+                                        <i class="glyphicon glyphicon-comment"></i><span class="text">182评论</span>
+                                    </div>
+                                    <div class="views">
+                                        <i class="glyphicon glyphicon-eye-open"></i><span class="text">12864浏览</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </section> -->
+            <!-- 最新文章 end -->
+
+            <!-- 最新文章 start -->
+            <section class="box newPostsBox">
+
+                <div class="hd">
+                    <div class="title">最新文章</div>
+                </div>
+                <div class="bd">
+                    <ul class="list">
+
+                        <li class="item clearfix">
+                            <figure>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/new-post-side1.png" alt=""/></a>
+                            </figure>
+                            <div class="introBox">
+                                <div class="headline"><a href="javascript:">匿名社交应用鼻祖Secret宣布关门，曾获3500万美金融资</a></div>
+                            </div>
+                        </li>
+
+                        <li class="item clearfix">
+                            <figure>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/new-post-side1.png" alt=""/></a>
+                            </figure>
+                            <div class="introBox">
+                                <div class="headline"><a href="javascript:">重构电商供应链，每日优鲜探寻生鲜电商2.0商机</a></div>
+                            </div>
+                        </li>
+
+                        <li class="item clearfix">
+                            <figure>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/new-post-side1.png" alt=""/></a>
+                            </figure>
+                            <div class="introBox">
+                                <div class="headline"><a href="javascript:">匿名社交应用鼻祖Secret宣布关门，曾获3500万美金融资</a></div>
+                            </div>
+                        </li>
+
+                        <li class="item clearfix">
+                            <figure>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/new-post-side1.png" alt=""/></a>
+                            </figure>
+                            <div class="introBox">
+                                <div class="headline"><a href="javascript:">重构电商供应链，每日优鲜探寻生鲜电商2.0商机</a></div>
+                            </div>
+                        </li>
+
+                        <li class="item clearfix">
+                            <figure>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/new-post-side1.png" alt=""/></a>
+                            </figure>
+                            <div class="introBox">
+                                <div class="headline"><a href="javascript:">匿名社交应用鼻祖Secret宣布关门，曾获3500万美金融资</a></div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </section>
+            <!-- 最新文章 end -->
+
+            <!-- 活动宣传 start -->
+            <section class="box activityBox">
+                <div class="hd">
+                    <div class="title">活动宣传</div>
+                </div>
+                <div class="bd">
+                    <ul class="list">
+                        <li class="item">
+                            <figure>
+                                <div class="photo"><img src="images/activity1.png" width="310" height="160" alt=""/></div>
+                            </figure>
+                        </li>
+                        <li class="item">
+                            <figure>
+                                <div class="photo"><img src="images/activity2.png" width="310" height="160" alt=""/></div>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- 活动宣传 end -->
+
+            <!-- 评论 start-->
+            <section class="box ">
+
+                <div class="hd">
+                    <div class="title">评论</div>
+                </div>
+                <div class="bd">
+                    <ul class="list">
+
+                        <li class="item clearfix">
+                            <figure>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/avatar1.png" alt=""/></a>
+                            </figure>
+                            <div class="introBox">
+                                <div class="headline"><a href="javascript:">天下任我行</a></div>
+                                <div class="summary">虽然一直都用破解版的OFFICE,但还是真心觉得原版的软件好！至少兼容性，通用性比较高，其他的软件虽然可能更廉价，但是总有一种!</div>
+                                <div class="metadata clearfix">
+                                    <a class="more" href="javascript:">原文: 互联网思维行不行？宗庆后杨元庆梁信军冯</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="item clearfix">
+                            <figure>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/avatar1.png" alt=""/></a>
+                            </figure>
+                            <div class="introBox">
+                                <div class="headline"><a href="javascript:">就是这么任性</a></div>
+                                <div class="summary">Android手机平均250-300美元，平均600美元——人们的手机购买价格决定了购买应用的能力。 主编真白痴手机有很多种类。</div>
+                                <div class="metadata clearfix">
+                                    <a class="more" href="javascript:">原文：亿超眼镜：60后大叔的O2O之路</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="item clearfix">
+                            <figure>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/avatar1.png" alt=""/></a>
+                            </figure>
+                            <div class="introBox">
+                                <div class="headline"><a href="javascript:">天下任我行</a></div>
+                                <div class="summary">虽然一直都用破解版的OFFICE,但还是真心觉得原版的软件好！至少兼容性，通用性比较高，其他的软件虽然可能更廉价，但是总有一种!</div>
+                                <div class="metadata clearfix">
+                                    <a class="more" href="javascript:">原文: 互联网思维行不行？宗庆后杨元庆梁信军冯</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="item clearfix">
+                            <figure>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/avatar1.png" alt=""/></a>
+                            </figure>
+                            <div class="introBox">
+                                <div class="headline"><a href="javascript:">就是这么任性</a></div>
+                                <div class="summary">Android手机平均250-300美元，平均600美元——人们的手机购买价格决定了购买应用的能力。 主编真白痴手机有很多种类。</div>
+                                <div class="metadata clearfix">
+                                    <a class="more" href="javascript:">原文：亿超眼镜：60后大叔的O2O之路</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="item clearfix">
+                            <figure>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/avatar1.png" alt=""/></a>
+                            </figure>
+                            <div class="introBox">
+                                <div class="headline"><a href="javascript:">天下任我行</a></div>
+                                <div class="summary">虽然一直都用破解版的OFFICE,但还是真心觉得原版的软件好！至少兼容性，通用性比较高，其他的软件虽然可能更廉价，但是总有一种!</div>
+                                <div class="metadata clearfix">
+                                    <a class="more" href="javascript:">原文: 互联网思维行不行？宗庆后杨元庆梁信军冯</a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </section>
+            <!-- 评论 end -->
+
+            <!-- 标签 start -->
+            <div class="box">
+                <div class="hd">
+                    <div class="title">标签</div>
+                </div>
+                <div class="bd">
+                    <div class="tagList">
+                        <a href="javascript:" class="item">微信</a>
+                        <a href="javascript:" class="item">安卓</a>
+                        <a href="javascript:" class="item">小米</a>
+                        <a href="javascript:" class="item">苹果</a>
+                        <a href="javascript:" class="item">亚马逊</a>
+                        <a href="javascript:" class="item">腾讯</a>
+                        <a href="javascript:" class="item">谷歌</a>
+                        <a href="javascript:" class="item">阿里巴巴</a>
+                        <a href="javascript:" class="item">三星</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 标签 end -->
+
+            <!-- 周热门, 月热门, 全部 start -->
+            <div class="box trendsBox">
+                <div class="hd">
+                    <div class="triggers"><a href="javascript:">周热门</a><a href="javascript:">月热门</a><a href="javascript:">全部</a></div>
+                </div>
+                <div class="bd">
+                    <div class="targets">
+                        <div class="item">周热门内容</div>
+                        <div class="item">月热门内容</div>
+                        <div class="item">全部内容</div>
+                    </div>
+                </div>
+            </div>
+            <!-- 周热门, 月热门, 全部 end -->
+
+            <!-- 订阅猎云资讯 start -->
+            <div class="box rssBox">
+                <div class="bd">
+                    <div class="lead">猎云资讯</div>
+                    <p class="desc">互联网、科技、游戏、即刻享受猎云为您量身打造的私人定制科技资讯。</p>
+                    <div class="rss">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="请输入您的邮件地址...">
+                            <span class="input-group-btn btn-warning">
+                                <button class="btn btn-default" type="button">订阅</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 订阅猎云资讯 end -->
+
+            <!-- 品牌赞助 start -->
+            <section class="box newPostsBox">
+
+                <div class="hd">
+                    <div class="title">品牌赞助</div>
+                </div>
+                <div class="bd">
+                    <ul class="list">
+
+                        <li class="item clearfix">
+                            <figure>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/brand1.png" alt=""/></a>
+                            </figure>
+                            <div class="introBox">
+                                <div class="headline"><a href="javascript:">青云QingCloud实践课堂北京站报名中，分享最踏实的云技术</a></div>
+                            </div>
+                        </li>
+
+                        <li class="item clearfix">
+                            <figure>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/brand2.png" alt=""/></a>
+                            </figure>
+                            <div class="introBox">
+                                <div class="headline"><a href="javascript:">LBS地图项目车轮上的LBS ——打造自己的用车APP</a></div>
+                            </div>
+                        </li>
+
+                        <li class="item clearfix">
+                            <figure>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/brand1.png" alt=""/></a>
+                            </figure>
+                            <div class="introBox">
+                                <div class="headline"><a href="javascript:">青云QingCloud实践课堂北京站报名中，分享最踏实的云技术</a></div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </section>
+            <!-- 品牌赞助 end -->
+
         </div>
+        <!-- side end -->
+
     </div>
 
 </div>
