@@ -91,7 +91,7 @@
                     </div>
                     <div class="tab-pane fade" id="categories">
                         <ul class="nav nav-pills nav-stacked">
-                            <li class="active"><a href="#Home">首页</a></li>
+                            <li><a href="#Home">首页</a></li>
                             <li><a href="#Internet">互联网</a></li>
                             <li><a href="#AI">智能设备</a></li>
                             <li><a href="#Games">游戏</a></li>
@@ -471,8 +471,13 @@
         <div class="side col-xs-12 col-sm-12 col-md-4 col-lg-4">
 
             <!-- 搜索 -->
-            <section class="box hidden-xs visible-sm visible-md visible-lg">
-                <input type="search" class="form-control index-search" placeholder="输入关键词回车搜索...">
+            <section class="box box-index-search hidden-xs visible-sm visible-md visible-lg">
+                <form action="index.html">
+                    <input type="search" class="form-control" placeholder="输入关键词回车搜索...">
+                    <button class="btn" type="button">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                </form>
             </section>
 
             <!-- 最新文章 start
@@ -526,7 +531,7 @@
 
                         <li class="item clearfix">
                             <figure>
-                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/new-post-side1.png" alt=""/></a>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/new-post-side2.png" alt=""/></a>
                             </figure>
                             <div class="introBox">
                                 <div class="headline"><a href="javascript:">匿名社交应用鼻祖Secret宣布关门，曾获3500万美金融资</a></div>
@@ -544,7 +549,7 @@
 
                         <li class="item clearfix">
                             <figure>
-                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/new-post-side1.png" alt=""/></a>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/new-post-main1.png" alt=""/></a>
                             </figure>
                             <div class="introBox">
                                 <div class="headline"><a href="javascript:">匿名社交应用鼻祖Secret宣布关门，曾获3500万美金融资</a></div>
@@ -553,7 +558,7 @@
 
                         <li class="item clearfix">
                             <figure>
-                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/new-post-side1.png" alt=""/></a>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/new-post-main2.png" alt=""/></a>
                             </figure>
                             <div class="introBox">
                                 <div class="headline"><a href="javascript:">重构电商供应链，每日优鲜探寻生鲜电商2.0商机</a></div>
@@ -562,7 +567,7 @@
 
                         <li class="item clearfix">
                             <figure>
-                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/new-post-side1.png" alt=""/></a>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/avatar2.png" alt=""/></a>
                             </figure>
                             <div class="introBox">
                                 <div class="headline"><a href="javascript:">匿名社交应用鼻祖Secret宣布关门，曾获3500万美金融资</a></div>
@@ -622,7 +627,7 @@
 
                         <li class="item clearfix">
                             <figure>
-                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/avatar1.png" alt=""/></a>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/avatar2.png" alt=""/></a>
                             </figure>
                             <div class="introBox">
                                 <div class="headline"><a href="javascript:">就是这么任性</a></div>
@@ -635,7 +640,7 @@
 
                         <li class="item clearfix">
                             <figure>
-                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/avatar1.png" alt=""/></a>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/avatar3.png" alt=""/></a>
                             </figure>
                             <div class="introBox">
                                 <div class="headline"><a href="javascript:">天下任我行</a></div>
@@ -648,7 +653,7 @@
 
                         <li class="item clearfix">
                             <figure>
-                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/avatar1.png" alt=""/></a>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/avatar4.png" alt=""/></a>
                             </figure>
                             <div class="introBox">
                                 <div class="headline"><a href="javascript:">就是这么任性</a></div>
@@ -661,7 +666,7 @@
 
                         <li class="item clearfix">
                             <figure>
-                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/avatar1.png" alt=""/></a>
+                                <a href="javascript:"><img class="thumb" width="60" height="60" src="images/avatar5.png" alt=""/></a>
                             </figure>
                             <div class="introBox">
                                 <div class="headline"><a href="javascript:">天下任我行</a></div>
@@ -720,6 +725,7 @@
                 <div class="bd">
                     <div class="lead">猎云资讯</div>
                     <p class="desc">互联网、科技、游戏、即刻享受猎云为您量身打造的私人定制科技资讯。</p>
+
                     <div class="rss">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="请输入您的邮件地址...">

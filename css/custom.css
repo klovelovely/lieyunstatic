@@ -73,12 +73,12 @@ ul li {
     user-select: none;
 }
 
-.navbar-default .navbar-brand {
+.navbar.navbar-default .navbar-brand {
     height: auto;
     padding: .22rem 0;
 }
 
-.navbar-default .navbar .navbar-toggle {
+.navbar.navbar-default .navbar-toggle {
     width: .9rem;
     height: .84rem;
     margin: 0;
@@ -90,30 +90,30 @@ ul li {
     border-radius: 0;
 }
 
-.navbar-default .navbar-desktop .nav > li > a:hover,
-.navbar-default .navbar-desktop .nav > li > a:focus {
+.navbar.navbar-default .navbar-desktop .nav > li > a:hover,
+.navbar.navbar-default .navbar-desktop .nav > li > a:focus {
     text-decoration: none;
     background-color: #eeeeee;
 }
 
-.navbar-default .navbar-desktop .navbar-nav {
+.navbar.navbar-default .navbar-desktop .navbar-nav {
     margin-left: .17rem;
 }
 
-.navbar-default .navbar-desktop .navbar-nav > li > a {
+.navbar.navbar-default .navbar-desktop .navbar-nav > li > a {
     padding: 0 .26rem;
     height: .84rem;
     line-height: .84rem;
 }
 
-.navbar-default .navbar-desktop .navbar-right > li > a {
+.navbar.navbar-default .navbar-desktop .navbar-right > li > a {
     margin: .25rem 0 0 0;
     padding: 0 .15rem;
     height: .34rem;
     line-height: .34rem;
 }
 
-.navbar-default .navbar-desktop .navbar-nav > li > a {
+.navbar.navbar-default .navbar-desktop .navbar-nav > li > a {
     color: #313040; /*#4796da*/
     background-color: #fff;
     -webkit-transition: all .2s;
@@ -123,15 +123,15 @@ ul li {
     transition: all .2s;
 }
 
-.navbar-default .navbar-desktop .navbar-nav > li > a:hover,
-.navbar-default .navbar-desktop .navbar-nav > li > a:focus {
+.navbar.navbar-default .navbar-desktop .navbar-nav > li > a:hover,
+.navbar.navbar-default .navbar-desktop .navbar-nav > li > a:focus {
     color: #54b2ff;
     background-color: #f0f0f0;
 }
 
-.navbar-default .navbar-desktop .navbar-nav > .active > a,
-.navbar-default .navbar-desktop .navbar-nav > .active > a:hover,
-.navbar-default .navbar-desktop .navbar-nav > .active > a:focus {
+.navbar.navbar-default .navbar-desktop .navbar-nav > .active > a,
+.navbar.navbar-default .navbar-desktop .navbar-nav > .active > a:hover,
+.navbar.navbar-default .navbar-desktop .navbar-nav > .active > a:focus {
     color: #fff;
     background-color: #3599f1;
 }
@@ -330,8 +330,31 @@ ul li {
 }
 
 /* side - 搜索框 */
-.form-control.index-search {
+.box-index-search {
+    position: relative;
+}
+
+.box-index-search .input-group {
+    width: 100%;
+}
+
+.box-index-search .form-control,
+.box-index-search .btn {
     height: .46rem;
+}
+
+.box-index-search .form-control {
+    width: 100%;
+}
+
+.box-index-search .btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: .5rem;
+    border-color: transparent;
+    background-color: transparent;
+    outline: 0;
 }
 
 /* side - 最新文章 */

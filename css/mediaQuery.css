@@ -16,7 +16,7 @@
         width: 767px;
     }
 
-    .navbar-desktop .navbar-nav > li > a {
+    .navbar.navbar-default .navbar-desktop .navbar-nav > li > a {
         padding: 0 .1rem;
     }
 
@@ -24,7 +24,7 @@
 
 @media (max-width: 1199px) and (min-width: 992px) {/* md */
 
-    .navbar-desktop .navbar-nav > li > a {
+    .navbar.navbar-default .navbar-desktop .navbar-nav > li > a {
         padding: 0 .20rem;
     }
 
