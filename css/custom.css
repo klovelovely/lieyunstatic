@@ -329,7 +329,7 @@ ul li {
     color: #34495e;
 }
 
-/* side - 搜索框 */
+/* 搜索框 */
 .box-index-search {
     position: relative;
 }
@@ -357,7 +357,7 @@ ul li {
     outline: 0;
 }
 
-/* side - 最新文章 */
+/* 最新文章 */
 .newPostsBox {
 }
 
@@ -409,3 +409,53 @@ ul li {
 .newPostsBox .list .item .introBox .headline a {
     color: #34495e;
 }
+
+/* 活动宣传 */
+.activityBox {
+}
+
+.activityBox .bd .list .item {
+    margin-bottom: .1rem;
+    text-align: center;
+}
+
+/* 标签 */
+.tagBox {
+}
+
+.tagBox .bd .list .item {
+    float: left;
+    margin: 0 .08rem .08rem 0;
+    min-width: .6rem;
+    text-align: center;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.tagBox .bd .list .item a {
+    display: block;
+    padding: .05rem .1rem;
+    background-color: rgb(235, 238, 242);
+    text-decoration: none;
+}
+
+.tagBox .bd .list .item a:hover {
+    background-color: rgb(219, 222, 226);
+}
+
+/* 周热门 月热门 全部 */
+.trendsBox {}
+.trendsBox .hd{}
+.trendsBox .hd .triggers{}
+.trendsBox .hd .triggers a{}
+.trendsBox .bd{}
+.trendsBox .bd .targets{}
+.trendsBox .bd .targets .item{}
+
+/* 订阅 */
+.rssBox {
+    padding: .15rem .1rem .25rem;
+    background-color: #268eeb;
+    color: #fff;
+}
+
