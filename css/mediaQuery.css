@@ -1,0 +1,34 @@
+/* desktop - sm, md, lg  */
+@media (min-width: 768px) {}
+
+/* mobile - xs  */
+@media (max-width: 767px) {
+
+    .container {
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 991px) and (min-width: 768px) {/* sm */
+
+    .container {
+        width: 767px;
+    }
+
+    .navbar.navbar-default .navbar-desktop .navbar-nav > li > a {
+        padding: 0 .1rem;
+    }
+
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {/* md */
+
+    .navbar.navbar-default .navbar-desktop .navbar-nav > li > a {
+        padding: 0 .20rem;
+    }
+
+}
+
+@media (min-width: 1200px) {/* lg */
+}
